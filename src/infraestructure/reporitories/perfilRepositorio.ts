@@ -5,7 +5,7 @@ getPerfil(): Perfil {
 nombre : "Junior J Solis",
 localizacion: "Managua , Nicaragua",
 bio:"Junior J. Solis | Software Developer and Data Analyst",
-avatar:"../../components/ui/images/JuniorJSolis.jpeg",
+avatar:"/JuniorJSolis.jpeg",
 links:[
 {nombre:"LinkedIn", url:"https://www.linkedin.com/in/junior-jose-solis-silva-6b9b15307/"},
 {nombre:"Github", url:"https://github.com/junior-js"},
