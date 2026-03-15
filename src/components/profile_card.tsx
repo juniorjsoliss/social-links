@@ -1,6 +1,7 @@
 import SocialButton from "./social_button";
 import { Perfil } from "../domain/entities/perfil";
-
+import { FaGithub } from "react-icons/fa";
+import { iconMap } from "./icon_map";
 interface Props {
 perfil : Perfil;
 
@@ -29,6 +30,9 @@ export default function ProfileCard({ perfil }: Props) {
             key={link.nombre}
             nombre={link.nombre}
             url={link.url}
+     icono={iconMap[link.nombre] ?? <FaGithub  size={30} />}
+
+     
           />
         ))}
       </div>

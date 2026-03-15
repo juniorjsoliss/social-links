@@ -1,6 +1,7 @@
 export interface SocialLink {
 nombre : string ;
 url : string ;
+icono: string;
 
 }
 export interface Perfil {
